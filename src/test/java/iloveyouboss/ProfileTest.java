@@ -1,6 +1,6 @@
 package iloveyouboss;
 
-import org.junit.jupiter.api.Assertions;
+import iloveyouboss.domain.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +14,7 @@ class ProfileTest {
     @BeforeEach
     void setUp() {
         profile = new Profile("Bull Hockey, Inc.");
-        question = new BooleanQuestion(1, "Got bonuses?");
+        question = new BooleanQuestion("Got bonuses?");
         criteria = new Criteria();
     }
 

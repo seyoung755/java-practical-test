@@ -1,4 +1,4 @@
-package iloveyouboss;
+package iloveyouboss.domain;
 
 import java.util.HashMap;
 import java.util.Map;

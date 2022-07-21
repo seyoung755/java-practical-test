@@ -1,4 +1,4 @@
-package iloveyouboss;
+package iloveyouboss.domain;
 
 public class Criterion implements Scoreable {
     private Weight weight;

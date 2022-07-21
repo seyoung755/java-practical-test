@@ -1,6 +1,6 @@
 package iloveyouboss;
 
-import org.assertj.core.api.Assertions;
+import iloveyouboss.domain.ScoreCollection;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
